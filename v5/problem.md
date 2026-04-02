@@ -67,7 +67,6 @@ Version 2:
 async function handleSearch() {
     const cityName = cityInput.value.trim();
     if (!cityName) return;
-
     display.innerHTML = "Connecting...";
 
     try {

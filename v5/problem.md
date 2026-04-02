@@ -19,7 +19,7 @@ I went into full "debug mode"—I tried everything from refactoring functions to
 ### 📓 Documented Attempts
 I’ve preserved the code and logic I attempted during this "Roadblock Phase" below for future reference.
 ---
-VERSION 1:
+Version 1 Code:
 
 async function handleSearch() {
     const cityName = cityInput.value.trim();
@@ -58,13 +58,11 @@ async function handleSearch() {
     }
 }
 
----
-
-END OF VERSION 1.
+END OF VERSION 1 CODE.
 
 ***
 
-Version 2:
+Version 2 Code:
 
 async function handleSearch() {
     const cityName = cityInput.value.trim();

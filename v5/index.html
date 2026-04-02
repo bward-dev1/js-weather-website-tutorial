@@ -42,8 +42,7 @@
 
     try {
         const safeName = encodeURIComponent(cityName);
-        // Fixed: Added $ and the correct Geocoding endpoint
-        const geoUrl = `https://geocoding-api.open-meteo.com/v1/search?name=${safeName}&count=1&language=en&format=json`;
+        const geoUrl = `https://open-meteo.com{safeName}&count=1&language=en&format=json`;
 
         const geoResponse = await fetch(geoUrl);
         
@@ -78,8 +77,7 @@
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 5000);
 
-        // Fixed: Added $ and the correct Geocoding endpoint
-        const geoUrl = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(cityName)}&count=1`;
+        const geoUrl = `https://open-meteo.com{encodeURIComponent(cityName)}&count=1`;
         
         const response = await fetch(geoUrl, { signal: controller.signal });
         clearTimeout(timeoutId);
@@ -102,4 +100,4 @@
     </footer>
 
 </body>
-</html>
+</html>>

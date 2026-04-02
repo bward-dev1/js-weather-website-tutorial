@@ -1,18 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Weather App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Weather Tutorial - Project Hub</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; color: #24292e; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        h1 { border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+        h2 { margin-top: 24px; border-bottom: 1px solid #eaecef; }
+        .card { border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; transition: background 0.2s; }
+        .card:hover { background-color: #f6f8fa; }
+        .version-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+        .btn { display: inline-block; padding: 8px 16px; background-color: #2ea44f; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; }
+        .btn-issue { background-color: #d73a49; }
+        a { color: #0366d6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
 
-    <h1>Weather Checker</h1>
-    <!-- The button... -->
-    <button id="show-weather-btn">Show Weather</button>
-    
-    <!-- Where the temperature (hopefully) will appear -->
-    <div id="weather-result"></div>
+    <h1>Weather Website Project Hub</h1>
+    <p>Welcome to the tutorial tracking page for the Weather Website project.</p>
 
-    <!-- Link to my JS file -->
-    <script src="script.js"></script>
+    <h2>Project Versions</h2>
+    <div class="version-list">
+        <div class="card"><a href="v1/index.html"><strong>Version 1</strong></a><br><small>API Fetching</small></div>
+        <div class="card"><a href="v2/index.html"><strong>Version 2</strong></a><br><small>Search Logic</small></div>
+        <div class="card"><a href="v3/index.html"><strong>Version 3</strong></a><br><small>City Search</small></div>
+        <div class="card"><a href="v4/index.html"><strong>Version 4</strong></a><br><small>CSS Styling</small></div>
+        <div class="card"><a href="v5/index.html"><strong>Version 5</strong></a><br><small>Final Polish</small></div>
+    </div>
+
+    <h2>Development & Support</h2>
+    <div class="card">
+        <h3>GitHub Resources</h3>
+        <p>Access the source code, view the history, or report bugs.</p>
+        <a href="https://github.com/bward-dev1/js-weather-website-tutorial" class="btn">View Repository</a>
+        <a href="https://github.com/bward-dev1/js-weather-website-tutorial/issues" class="btn btn-issue">Report a Problem</a>
+    </div>
+
+    <h2>Quick Links</h2>
+    <ul>
+        <li><a href="README.md">Project Documentation</a></li>
+        <li><a href="LICENSE.md">License Information</a></li>
+    </ul>
+
+    <footer style="margin-top: 50px; font-size: 0.8em; color: #6a737d;">
+        &copy; 2026 bward-dev1. Built for the Weather Website Tutorial series.
+    </footer>
+
 </body>
 </html>

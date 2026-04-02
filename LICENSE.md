@@ -1,0 +1,5 @@
+# License
+
+Copyright (c) 2026 [bwardev1]
+
+All rights reserved. No part of this software may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the author.

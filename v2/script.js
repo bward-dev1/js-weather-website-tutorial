@@ -41,5 +41,5 @@ async function searchWeather() {
     }
 }
 
-// Trigger search on click
+// automatically trigger search on button click
 searchBtn.addEventListener('click', searchWeather);
